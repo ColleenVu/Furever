@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital@1&family=Nunito:wght@700&family=Pacifico&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital@1&family=Lato:wght@300&family=Nunito:wght@700&family=Pacifico&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital@1&family=Lato:wght@300&family=Nunito:wght@700&family=Pacifico&family=Raleway:ital@1&family=Shadows+Into+Light&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{	
+  background: url("/img/dogheader1.jpg");
+  background-repeat: no-repeat;
+	overflow-x: hidden;
+	background-size: cover;
+  background-color: #80755a;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 23% 12% 65%;
+  width: 100%;
+} 
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+h1{
+  position: absolute;
+  padding-top: 3px;
+  float: left;
+  margin-left: 3%;
+  margin-top: 13px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(253, 253, 253);
+}
+
+span{
+  color: rgb(167, 134, 86);
+}
+
+ul{
+  margin-top: 19px;
+  width: auto;
+  float: right;
+  padding-right: 40px;
+}
+
+li{
+  display: inline-block;
+  padding-right: 50px;
+}
+
+a{
+  color: azure;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+
+a:hover{
+  color: rgb(153, 92, 0);
+  transition: 0.3s;
+}
+
+#logoutButton{
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+}
+
+#logoutInput{
+  background-color: transparent;
+  padding: 6px;
+  box-shadow: 1px 1px 1px rgb(10, 9, 9);
+  color: white;
+}
+
+#userProfileGrid{
+  display: grid;
+  grid-template-columns: 44% 55%;
+  grid-template-rows: 100%;
+}
+#userProfile{
+  grid-area: 1/1/2/2;
+  margin: 30px;
+  height: 25vw;
+  border: 2px solid black;
+  font-size: 3vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(63, 62, 60, 0.2);
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+  backdrop-filter: blur(10px);
+}
+
+#adoptable{
+  margin: 5px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 5vw;
+}
+
+#dogCards{
+  display: grid;
+  grid-template-columns: 6% 41% 6% 41% 6%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  height:100%;
+  width: 100%;
+  color: white;
+  font-size: 2vw;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#dog1{
+  grid-area: 1/2/2/3;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+#dog2{
+  grid-area: 1/4/2/5;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+#dog3{
+  grid-area: 2/2/3/3;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+#dog4{
+  grid-area: 2/4/3/5;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+
+#dog5{
+  grid-area: 3/2/4/3;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+#dog6{
+  grid-area: 3/4/4/5;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+#dog7{
+  grid-area: 4/2/5/3;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+#dog8{
+  grid-area: 4/4/5/5;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+#dog9{
+  grid-area: 5/2/6/3;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+#dog10{
+  grid-area: 5/4/6/5;
+  margin: 10px;
+  overflow: hidden;
+  background-color: rgba(63, 40, 14, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 17px rgb(10, 9, 9);
+}
+
+.dogCardimg{
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+img{
+  width: 100%;
+  margin-top: -16px;
+}
+
+.dogCardtext{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#items-footer{
+  text-align: center;
+  margin: 20px;
+}
+
+@media only screen and (max-width : 1050px){
+  .grid{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 10% 70%;
+  width: 100%;
+  } 
+
+  #userProfileGrid{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 100%;
+  }
+
+  #userProfile{
+    grid-area: 1/2/2/3;
+    height: 30vw;
+    margin: 30px;
+    border: 2px solid black;
+    font-size: 3.5vw;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(63, 62, 60, 0.2);
+    box-shadow: 0 0 17px rgb(10, 9, 9);
+    backdrop-filter: blur(10px);
+  }
+
+  #adoptable{
+    margin: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 7vw;
+  }
+
+  #dogCards{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  height:100%;
+  width: 100%;
+  color: white;
+  font-size: 3.5vw;
+  font-family: 'Balsamiq Sans', cursive;
+  }
+
+  ul{
+  margin-top: 19px;
+  width: auto;
+  float: right;
+  padding-right: 10px;
+  }
+
+  a{
+  color: azure;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  }
+
+  .navbar li.hide{
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 650px){
+  .navbar li.hide2{
+    display: none;
+  }
+}

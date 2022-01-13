@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital@1&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+body {
+	font-family: sans-serif;	
+	/*background-image: url(/imgs/login.jpg);*/
+  background: url("/img/login.jpg") center/cover fixed;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%
+}
+
+.container {
+  grid-area: 1/1/2/2;
+	background-color: rgba(0,0,0,0.1);
+	width: 375px;
+	margin:7% auto;
+	border-radius: 25px;
+	box-shadow: 0 0 17px rgb(243, 243, 243);
+}
+
+.header {
+	text-align: center;
+	padding-top: 75px;
+  font-family: 'Pacifico', cursive;
+}
+
+.header > h1 {
+	color: rgb(255, 255, 255);
+	font-size: 45px;
+	margin-bottom: 80px;
+}
+
+.loginForm {
+	text-align: center;
+}
+
+.loginForm input, button {
+	width: 300px;
+	height: 40px;
+	border:none;
+	outline: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 40px;
+}
+
+.loginForm button {
+	padding-left: 0;
+	background-color: #83acf1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+.loginForm button:hover {
+	background-color: #7799d4;
+	box-shadow: 1px 1px 3px rgb(73, 71, 71);
+}
+.loginForm input:hover {
+	box-shadow: 1px 1px 3px rgb(73, 71, 71);
+	background-color: rgba(221, 221, 221, 0.959);
+}
+
+.loginForm > span {
+	position: relative;
+}
+
+.loginForm > i {
+	font-size: 16px;
+	top: 2px;
+	position: absolute;
+	left: 15px;
+	color: rgb(53, 52, 52);
+}
+
+#forgotPassword > span > a {
+  text-decoration: none;
+  color: rgba(221, 221, 221, 0.959);
+}
+
+#register > span > a {
+  text-decoration: none; 
+  color: rgba(221, 221, 221, 0.959);
+}
+
+.adoptText > h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 5.5vw;
+  color: rgba(221, 221, 221, 0.959);
+  position: relative;
+  top:50pt;
+  left: -30pt;
+}
+
+@media only screen and (max-width : 1000px){
+
+	.grid{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 90% 10%;
+		height: auto;
+	}
+
+	.container {
+		grid-area: 1/1/2/2;
+		width: 380px;
+		height: 650px;
+		margin:3% auto;
+		border-radius: 25px;
+		background-color: rgba(0,0,0,0.1);
+		box-shadow: 0 0 17px rgb(243, 243, 243);
+	}
+
+	.adoptText > h1 {
+		display: none;
+	}
+}
